@@ -186,11 +186,6 @@ void MaskLinearFunction::getLoadAndStore(llvm::Function &function) {
         store_set.insert(st_inst);
     }
   }
-
-  // for (auto &st_inst : store_set)
-  //   dbgs() << *st_inst << '\n';
-  // for (auto &ld_inst : load_set)
-  //   dbgs() << *ld_inst << '\n';
 }
 
 // Pass identifier
